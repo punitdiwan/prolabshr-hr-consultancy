@@ -12,5 +12,1154 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+.header{
+  background-image:  linear-gradient(45deg,
+  rgba(54, 52, 52, 0.75),
+  rgba(12, 15, 17, 0.75)), url('../public/images/closeup-black-keyboard-table_181624-12231\ \(1\).jpg');
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 3rem 0 10rem;
+} 
+.header-2{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  gap: 5px;
+}
+.header-inner{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+ .header-inner>span{
+  font-size: small;
+  color: orange;
+}
+.header-inner p{
+  font-size: small;
+}
+.about-head{
+  background-image: linear-gradient(45deg,
+  rgba(54, 52, 52, 0.75),
+  rgba(12, 15, 17, 0.65)), url("/images/background-1.jpg");   
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   height: 40vh;
+   text-align: center;
+   color: white;
+   display:flex;
+   align-items: center;
+   justify-content: center
+}
+.about-head>h1{
+  border-bottom:2px solid orange;
+}
+
+
+/* *********** footer ***************  */
+.footer-main{
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 3rem 4rem 4rem 5rem;
+}
+.footer{
+  background-color: #0B1B3C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.footer>p{
+  margin-bottom: 2rem;
+}
+.footer-main a:hover{
+ color: orange ;
+}
+
+.footer-2-2 span{
+ color: orange;
+ font-weight: bolder;
+}
+.icons-main{
+ border: 2px solid red;
+ float: right;
+}
+.icons>a:hover{
+ color: white;
+}
+.icons-1>a:hover{
+ color: black;
+}
+.copyright-link{
+  color: #BC3163;
+  text-emphasis-style: italic;
+}
+.copyright-link:hover{
+  color: rgb(148, 146, 146);
+}
+.footer-1-1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.icons{
+  width: max-content;
+  display: flex;
+  gap: 1rem;
+  font-size: x-large;
+  color: orange;
+  cursor: pointer;
+  height: max-content;
+}
+.footer-1-1>p{
+  width: 80%;
+  line-height: 1.5rem;
+  margin: 0;
+}
+.footer-2-2{
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.footer-2{
+  text-align: left;
+  width: 50%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.footer-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.slider-div{
+  text-align: center;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;;
+}
+
+
+/* ************** navigation bar ************* */
+
+.navigation-bar{
+  background-image: linear-gradient(45deg,
+  rgba(54, 52, 52, 0.75),
+  rgba(12, 15, 17, 0.75)), url('../public/images/closeup-black-keyboard-table_181624-12231\ \(1\).jpg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* padding-top: 1rem; */
+} 
+ .nav-div-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  width: 100%;
+  background: #BFBCB8;
+}
+.nav-div-1>img{
+  width: 15%;
+}
+#nav-items-1{
+  background: transparent;
+}
+.nav-items>ul>li:hover{
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+  cursor: pointer;
+  color: orange;
+}
+.btn-global{
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  background-color: orange;
+  padding: 0.7rem;
+  width: max-content;
+  cursor: pointer;
+}
+.btn-global:hover{
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  background: #F0C105;
+  color: #fff;
+  /* border: 1px solid orange; */
+}
+.btn-job{
+  width: 60%;
+  padding: 1rem 1.5rem 1rem 1.5rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  font-weight: bold;
+  border: 1px solid #F0C105 ;
+  cursor: pointer;
+}
+.btn-job:hover{
+  border-left: 3px solid orange;
+}
+.nav-items{
+  width: 40%
+}
+.nav-items>ul{
+ display: flex;
+ justify-content: space-between;
+ font-weight: bolder;
+}
+.nav-div-2{
+  display: flex;
+  flex-direction: column; 
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+  width: 50%; 
+  color: white;
+  font-size: large;
+}
+.nav-div-2>h1{
+  margin: 0;
+  font-size: 50px;
+} 
+.nav-div-2>p{
+  margin: 0;
+  margin-bottom: 1rem;
+} 
+.nav-div-2 .span{
+  color: orange;
+}
+li{
+  list-style:none;
+} 
+.nav-items-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 100%;
+  background: transparent ;
+}
+.nav-items-1>ul>li:first-child{
+
+  padding-top: 1rem;
+}
+.nav-items-1>ul>li{
+  padding-bottom: 1rem;
+}
+
+/* ********** welcome page ************   */
+
+.welcome-main{
+  margin: 4rem 0 4rem 0;
+  display: flex; 
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+.welcome-div>p{
+  line-height:1.5rem;
+}
+.welcome-div .heading{
+  border-bottom: 2px solid orange;
+}
+.nav-div-2 .heading{
+  border-bottom: 2px solid orange;
+}
+.welcome-main>img{
+ height: 20%;
+ width: 45%;
+}
+.welcome-div h4{
+  font-size:large;
+}
+.welcome-main>.welcome-img-1{
+  height: 20%;
+  width: 30%;
+}
+.welcome-div{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+.welcome-div h1{
+  color: orange; 
+}
+.welcome-nested span{
+ color: orange;
+ font-size: large;
+}
+.welcome-nested-main{
+  display: flex;
+  gap: 1rem;
+  /* border: 2px solid red; */
+  text-align: left;
+}
+.welcome-nested{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  gap:1rem;
+}
+.btn-div{
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 4rem;
+}
+
+.client-div{
+  /* border: 2px solid red; */
+  padding: 1rem;
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+}
+/* *********** call Now ***********  */
+
+.call-now{
+  background-image:  linear-gradient(45deg,
+  rgba(54, 52, 52, 0.75),
+  rgba(12, 15, 17, 0.75)),   url('/images/closeup-black-keyboard-table_181624-12231 (1).jpg');
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  gap: 1rem;
+}
+.call-now-1{
+  background-image:  linear-gradient(45deg,
+  rgba(17, 16, 16, 0.75),
+  rgba(12, 15, 17, 0.75)),   url('/images/back-2.jpg');
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  gap: 1rem;
+
+}
+.call-now>p{
+  width: 40%;
+  text-align: center;
+}
+.call-now-main{
+  color: white;
+  /* height: 40vh; */
+  /* margin: 15rem 0 4rem 0; */
+}
+
+/* ************* service ***************** */
+
+.our-service img{
+ height: 80%;
+ width: 40%;
+}
+.our-service{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.our-service h1{
+  color: orange;
+}
+.service-main{
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.service-main>h1{
+  padding: 1rem;  
+  background: white;
+  color: black;
+  text-align: center;
+}
+.last{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+
+.service-bg{
+  color: white;
+  background: #0B1B3C;
+}
+.service-img>img{
+  height: 80%;
+  width: 40%;
+  padding-right: 1rem;
+}
+.new-nav{
+  display: none;
+  background-image:   linear-gradient(45deg,
+  rgba(54, 52, 52, 0.75),
+  rgba(12, 15, 17, 0.75)), url('../public/images/closeup-black-keyboard-table_181624-12231\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.navigation {
+  width: 100%;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* background-color: #fff; */
+}
+.dropdown-new {
+  padding: 1rem;
+  top: 70%;
+  left: 10%;
+  width: 60%;
+  transition: all 0.5s;
+  position: absolute;
+  background-color: grey;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+  border: 1px solid grey;
+}
+.responsive-nav{
+  display: none;
+}
+.responsive-nav>img{
+ width: 10%;
+}
+
+/* ************** About us ****************  */
+
+.row-icon{
+  background: #0B1B3C;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+.row-icon-1{
+  width:20%;
+  text-align: center;
+}
+.row-icon-1>span{
+  font-size: 40px;
+  color: orange;
+}
+.icon-container{
+  /* border: 2px solid red; */
+  width: 50%;
+  display: flex;
+  align-items: center ;
+  flex-wrap: wrap;
+  margin-left: 4rem;
+}
+.icon-container-1{
+  box-shadow: 5px 5px 5px -5px ;
+  text-align: center;
+  width: 50%;
+  color: #0B1B3C
+}
+.icon-container-1>span{
+  font-size: 40px;
+  color: orange
+}
+.about-2{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.button-div{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button-div-1{
+  margin-top: 1rem;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.button-div-1:hover{
+  border-bottom: 2px solid black; 
+  border-width: 50%;
+}
+.about-last{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+.margin-top{
+  margin-top: 1rem;
+}
+
+
+/* ************* clients ****************  */
+
+.client-card{
+  margin: 3rem 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  height: 100%;
+  color: #0B1B3C;
+  text-align: center;
+  width: 30%;
+  gap: 2rem;
+  display: flex;
+  flex-direction:column; 
+}
+.card>img{
+  height: 50vh;
+  width: 100%;
+}
+
+.list-items li:hover > .dropdown1 li {
+  font-size: small;
+  transition: all 0.5s;
+  top: 1rem;
+  color: #fff;
+  /* background-color: #e97195; */
+  display: block;
+}
+.list-items li > .dropdown1 li:hover {
+  color: orange;
+  background-color: black;
+}
+
+
+.dropdown1 li {
+  color: black;
+  transition: all ease 0.3s ;
+  display: none;
+  /* position: relative; */
+  padding: 0.8rem;
+}
+.dropdown1 {
+  padding-top: 0.5rem;
+  top: 100%;
+  background: grey;
+  color: white;
+  height: max-content; 
+  display: inline-block;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+
+
+/* ************ form *************  */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.recruitment-main{
+  align-items: center;
+  display: flex;
+  gap: 5rem;
+  padding: 2rem;
+  box-shadow: 5px 5px 5px -5px ;
+}
+.recruitment-1{
+  color: #0B1B3C;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  width: 40%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+.map{
+  margin-left: 10%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 40vh;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px){
+  .responsive-nav {
+    transition: all 0.2s;
+    color: white;
+    padding: 0.5rem;
+    background-image: linear-gradient(45deg,
+    rgba(54, 52, 52, 0.75),
+    rgba(12, 15, 17, 0.75)), url("../public/images/closeup-black-keyboard-table_181624-12231\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: block;
+  }
+  .responsive-nav .bars {
+    font-size: xx-large;
+    color: white;
+  }
+  .responsive-nav img {
+    float: right;
+    width: 20%
+  }
+  .nav-div-2{
+    width: 100%;;
+    /* border: 2px solid red; */
+  }
+  .call-now-main{
+    width:100%;
+  }
+  .call-now>h1{
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    font-size: x-large;
+
+  }
+  .call-now>p{
+    width: 100%;  
+  }
+  .call-now{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .service-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .our-service{
+    width: 100%;
+    padding: 1rem;
+  }
+  .service-img-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-img-1>img{
+    width: 100%;
+  }
+  .last{
+    width: 100%;
+    padding: 1rem;
+  }
+  .service-img img{
+    width: 50%;
+    height: 50%;
+  }
+  .welcome-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .btn-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  .welcome-div{
+    width: 100%;
+
+  }
+  .welcome-nested-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-nested{
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-main>img{
+    width: 100%;
+    height: 50%;
+  }
+  .welcome-main .welcome-img-1{
+    width: 80%;
+    height: 50%;
+  }
+  .navigation-bar{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+   .footer-main{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+   }
+   .icon-container{
+    margin:0;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .new-nav-1{
+    display: none;
+   }
+   .about-head{
+    margin-top: 5rem;
+    width: 100%;
+   }
+}
+@media only screen and (min-width:600px) and (max-width:767px){
+  .responsive-nav {
+    transition: all 0.2s;
+    color: white;
+    padding: 0.5rem;
+    background-image: linear-gradient(45deg,
+    rgba(54, 52, 52, 0.75),
+    rgba(12, 15, 17, 0.75)), url("../public/images/closeup-black-keyboard-table_181624-12231\ \(1\).jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+  }
+  .responsive-nav .bars {
+    font-size: xx-large;
+    color: white;
+  }
+  .responsive-nav img {
+    float: right;
+  }
+  .nav-div-2{
+    width: 100%;;
+  }
+  .call-now-main{
+    width:100%;
+  }
+  .call-now>h1{
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    font-size: x-large;
+
+  }
+  .call-now>p{
+    width: 100%;  
+  }
+  .call-now{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .service-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .our-service{
+    width: 100%;
+    padding: 1rem;
+  }
+  .service-img-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-img-1>img{
+    width: 100%;
+  }
+  .last{
+    width: 100%;
+    padding: 1rem;
+  }
+  .service-img img{
+    width: 50%;
+    height: 50%;
+  }
+  .welcome-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .btn-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  .welcome-div{
+    width: 100%;
+
+  }
+  .welcome-nested-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-nested{
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-main>img{
+    width: 100%;
+    height: 50%;
+  }
+  .welcome-main .welcome-img-1{
+    width: 100%;
+    height: 50%;
+  }
+  .navigation-bar{
+    display: none;
+  }
+  .list-items{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .footer-1{
+    width: 100%;
+  }
+  .footer-2{
+    width: 100%;
+  }
+  .footer-2-2{
+    width: 100%
+  }
+  .footer-2-2>p{
+    width:100%;
+  }
+   .footer-main{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   }
+   .footer>p{
+    padding: 1rem;
+  }
+  .row-icon{
+    display: flex; 
+    flex-direction: column;
+    gap:1rem;
+  }
+  .row-icon-1{
+    width: 100%;
+  }
+  .icon-container{
+    margin:0;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .new-nav-1{
+    display: none;
+   }
+   .about-head{
+    margin-top: 5rem;
+    width: 100%;
+   }
+} 
+@media only screen and (max-width: 600px){
+ .new-nav-1{
+  display: none;
+ }
+ .about-head{
+  margin-top: 5rem;
+  width: 100%;
+ }
+  .recruitment-main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px -5px ;
+  }
+  .recruitment-1{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .client-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    padding: 2rem;
+    width: 100%
+  }
+  .card>img{
+    border: 2px dotted darkred;
+  }
+  .footer>p{
+    padding: 1rem;
+  }
+  .row-icon{
+    display: flex; 
+    flex-direction: column;
+    gap:1rem;
+  }
+  .row-icon-1{
+    width: 100%;
+  }
+  .icon-container{
+    margin:0;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .navigation-bar{
+    display: none;
+  }
+  .button-div{
+    display: flex; 
+    flex-direction: column;
+  }
+  .about-last{
+    padding: 2rem;  }
+  .button-div-1{
+    width: 100%;
+  }
+  .responsive-nav {
+    margin-bottom: 1rem;
+    height: auto;
+    transition: all 0.2s;
+    color: white;
+    background-image: linear-gradient(45deg,
+    rgba(54, 52, 52, 0.75),
+    rgba(12, 15, 17, 0.75)), url("../public/images/closeup-black-keyboard-table_181624-12231\ \(1\).jpg");
+    background-repeat: no-repeat;
+    padding: 0.5rem;
+    width: 100%;
+    display: block;
+    /* border: 2px solid red; */
+  }
+  .responsive-nav .bars {
+    color: white;
+    font-size: xx-large;
+  }
+  .responsive-nav img {
+    float: right;
+    width: 30%;
+  }
+  .nav-div-2{
+    width: 100%;;
+  }
+  .call-now-main{
+    width:100%;
+  }
+  .call-now>h1{
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    font-size: x-large;
+
+  }
+  .call-now>p{
+    width: 100%;  
+  }
+  .call-now{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .service-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .our-service{
+    width: 100%;
+    padding: 1rem;
+  }
+  .service-img-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-img-1>img{
+    width: 100%;
+  }
+  .last{
+    width: 100%;
+    padding: 1rem;
+  }
+  .service-img img{
+    width: 50%;
+    height: 50%;
+  }
+  
+  .btn-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  .welcome-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .welcome-div{
+    width: 100%;
+
+  }
+  .welcome-nested-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-nested{
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome-main>img{
+    width: 100%;
+    height: 50%;
+  }
+  .welcome-main .welcome-img-1{
+    border-radius: 5px;
+    border: 2px dotted darkred;
+    width: 100%;
+    height: 50%;
+  }
+  .header{
+    display: none;
+  }
+  .footer-1{
+    width: 100%;
+  }
+  .footer-2{
+    width: 100%;
+  }
+  .footer-2-2{
+    width: 100%
+  }
+  .footer-2-2>p{
+    width:100%;
+  }
+  .footer-main{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   } 
 }
