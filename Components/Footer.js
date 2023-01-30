@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaTwitterSquare,
 } from "react-icons/fa";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -21,19 +22,15 @@ function Footer() {
               </p>
               <div className="icons">
                 <a href="#">
-                  
                   <FaFacebookSquare />
                 </a>
                 <a href="#">
-                  
                   <FaTwitterSquare />
                 </a>
                 <a href="#">
-                  
                   <FaLinkedin />
                 </a>
                 <a href="#">
-                  
                   <FaInstagram />
                 </a>
               </div>
@@ -60,16 +57,13 @@ function Footer() {
           <div className="footer-2">
             <h1>Our Explore</h1>
             <div className="footer-2-2">
-              <a href="#">
-                
+              <Link href="/aboutus">
                 <h4>About us </h4>
-              </a>
-              <a href="#">
-                
+              </Link>
+              <Link href="/recruitment">
                 <h4>Services</h4>
-              </a>
+              </Link>
               <a href="#">
-                
                 <h4>Testimonials</h4>
               </a>
             </div>
@@ -77,28 +71,29 @@ function Footer() {
           <div className="footer-2">
             <h1>Quick Links</h1>
             <div className="footer-2-2">
-              <a href="#">
-                
+              <Link href="/">
                 <h4> Home </h4>
-              </a>
+              </Link>
               <a href="#">
-                
                 <h4> Our Clients</h4>
               </a>
-              <a href="#">
-                
-                <h4>Contatc Us</h4>
-              </a>
+              <Link href="/contactus">
+                <h4>Contact Us</h4>
+              </Link>
             </div>
           </div>
         </div>
         <p>
-          
           Copyrights © 2022 Prolabs HR. all rights reserved. Developed by
           <span className="copyright-link">
             <a href="#">
-              
-              <i> Prodemy India </i>
+              {/* <i> */}
+
+              <a href="http://maitretech.com/" target="_blank">
+                {" "}
+                Maitretech Solutions
+              </a>
+              {/* </i> */}
             </a>
           </span>
         </p>
