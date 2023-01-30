@@ -8,8 +8,6 @@ import {
 } from "react-icons/fa";
 import Responsive from "../Components/Responsive";
 
-
-
 function Header() {
   const [show, setShow] = useState(false);
 
@@ -42,13 +40,12 @@ function Header() {
             <span>
               <FaPhoneAlt />
             </span>
-            <p> +91-9873554734</p>
+            <p> +91-7676975440</p>
           </div>
         </div>
       </header>
       {/* ref={menuRef} */}
-      <div
-        className="responsive-nav mainHeader fixedTop  ">
+      <div className="responsive-nav mainHeader fixedTop  ">
         <img src="/images/Pro_Logo-1.png" alt="logo" />
         <a href="#" onClick={() => setShow(!show)} className="bars ">
           <FaBars />
