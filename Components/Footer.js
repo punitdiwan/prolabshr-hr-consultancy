@@ -27,7 +27,10 @@ function Footer() {
                 <a href="#">
                   <FaTwitterSquare />
                 </a>
-                <a href="https://www.linkedin.com/company/prolabs-hr-solutions/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/company/prolabs-hr-solutions/"
+                  target="_blank"
+                >
                   <FaLinkedin />
                 </a>
                 <a href="#">
@@ -84,16 +87,16 @@ function Footer() {
           </div>
         </div>
         <p>
-          Copyrights © 2022 Prolabs HR. all rights reserved. Developed by
+          Copyrights © 2023 Prolabs HR. all rights reserved. Developed by
           <span className="copyright-link">
             {/* <a href="#"> */}
-              {/* <i> */}
+            {/* <i> */}
 
-              <a href="http://maitretech.com/" target="_blank">
-                {" "}
-                Maitretech Solutions
-              </a>
-              {/* </i> */}
+            <a href="http://maitretech.com/" target="_blank">
+              {" "}
+              Maitretech Solutions
+            </a>
+            {/* </i> */}
             {/* </a> */}
           </span>
         </p>
