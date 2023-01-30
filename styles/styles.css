@@ -2,7 +2,6 @@
     max-width: 250px;
     height: 5rem;
     padding: 0 15px;
-    /* object-fit: cover; */
   }
   
   .slider-image>img:last-of-type {
@@ -47,7 +46,6 @@
     width: 100%;
     position: fixed;
     top: 0;
-    /* background: grey; */
   }
   .fixedTop + .main-block {
     padding-top: 102px;

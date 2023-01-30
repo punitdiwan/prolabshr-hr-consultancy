@@ -5,14 +5,14 @@ const Banner = ({ images, speed = 1000 }) => {
         <section style={{ "--speed": `${speed}ms` }}>
           {images.map(({ id, image }) => (
             <div className="slider-image" key={id}>
-              <img src={image} alt={id} />
+              <img src={image} alt="slider" key={ id} />
             </div>
           ))}
         </section>
         <section style={{ "--speed": `${speed}ms` }}>
           {images.map(({ id, image }) => (
             <div className="slider-image" key={id}>
-              <img src={image} alt={id} />
+              <img src={image} alt="slider" key={ id} />
             </div>
           ))}
         </section>
@@ -28,4 +28,4 @@ const Banner = ({ images, speed = 1000 }) => {
   );
 };
 
-export { Banner };
+export default Banner;

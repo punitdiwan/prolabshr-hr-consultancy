@@ -1,5 +1,5 @@
 {
-  "name": "consultancy-web",
+  "name": "Prolabs-hr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,13 +11,9 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "next": "13.1.5",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.7.1"
-  },
-  "devDependencies": {
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.5"
   }
 }

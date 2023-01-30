@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCheck, FaGlobeAmericas } from "react-icons/fa";
-import { Banner } from "./Banner";
+import Banner from "./Banner";
 import crypto from "crypto";
 
 // let crypto;

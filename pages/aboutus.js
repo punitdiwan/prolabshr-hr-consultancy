@@ -19,8 +19,8 @@ import {
   FaMobileAlt,
   FaCaretDown,
 } from "react-icons/fa";
-import Iconcolumn from "./Iconcolumn";
 import Link from "next/link";
+import Iconcolumn from '../Components/Iconcolumn';
 
 function Aboutus() {
   const stickyHeader = useRef();
@@ -53,20 +53,20 @@ function Aboutus() {
               <Link href="/">Home </Link>
             </li>
             <li>
-              <Link href="/Aboutus">About Us</Link>
+              <Link href="/aboutus">About Us</Link>
             </li>
             <li>
               Services
               <FaCaretDown />
               <ul className="dropdown1">
                 <li>
-                  <Link href="/Recruitment"> Recruitment</Link>
+                  <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
-                  <Link href="/Recruitment"> Recruitment</Link>
+                  <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
-                  <Link href="/Recruitment"> Recruitment</Link>
+                  <Link href="/recruitment"> Recruitment</Link>
                 </li>
               </ul>
             </li>
@@ -74,7 +74,7 @@ function Aboutus() {
               <Link href="/Clients"> Our Clients</Link>
             </li> */}
             <li>
-              <Link href="/Contactus"> Contact Us</Link>
+              <Link href="/contactus"> Contact Us</Link>
             </li>
           </ul>
         </div>

@@ -45,20 +45,20 @@ function Contactus() {
               <Link href="/">Home </Link>
             </li>
             <li>
-              <Link href="/Aboutus">About Us</Link>
+              <Link href="/aboutus">About Us</Link>
             </li>
             <li>
               Services
               <FaCaretDown />
               <ul className="dropdown1">
                 <li>
-                  <Link href="/Recruitment"> Recruitment</Link>
+                  <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
-                  <Link href="/Recruitment"> Recruitment</Link>
+                  <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
-                  <Link href="/Recruitment"> Recruitment</Link>
+                  <Link href="/recruitment"> Recruitment</Link>
                 </li>
               </ul>
             </li>
@@ -66,7 +66,7 @@ function Contactus() {
               <Link href="/Clients"> Our Clients</Link>
             </li> */}
             <li>
-              <Link href="/Contactus"> Contact Us</Link>
+              <Link href="/contactus"> Contact Us</Link>
             </li>
           </ul>
         </div>

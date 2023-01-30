@@ -1,8 +1,7 @@
-// import { ToastProvider } from 'react-toast-notifications/dist/ToastProvider'
+import { ToastProvider } from 'react-toast-notifications/dist/ToastProvider'
 import Head from "next/head";
 import Header from "../Header";
 import Footer from "../Footer";
-import img from "../../public/images/favicon.ico";
 
 const Layout = () => {
   return (

@@ -25,7 +25,7 @@ function Responsive() {
                 <Link href="/">Home </Link>
               </li>
               <li>
-                <Link href="/Aboutus">About Us</Link>
+                <Link href="/aboutus">About Us</Link>
               </li>
               <li>
                 <a
@@ -39,7 +39,7 @@ function Responsive() {
                 {show ? (
                   <ul className="dropdown-new">
                     <li>
-                      <Link href="/Recruitment" className="nav_link1">
+                      <Link href="/recruitment" className="nav_link1">
                         Recruitment
                       </Link>
                     </li>
@@ -53,7 +53,7 @@ function Responsive() {
                 <Link href="/Clients"> Our Clients</Link>
               </li> */}
               <li>
-                <Link href="/Contactus"> Contact Us </Link>
+                <Link href="/contactus"> Contact Us </Link>
               </li>
             </ul>
           </div>

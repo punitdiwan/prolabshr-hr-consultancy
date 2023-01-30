@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useLayoutEffect }  from 'react';
-import Navigation from "../Components/Navigation";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Navigation from "./Navigation";
+import Header from "./Header";
+import Footer from "./Footer";
 import {
     FaBook,
     FaPeopleArrows,
