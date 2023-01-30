@@ -107,7 +107,7 @@ function Recruitment() {
             Recruitment services with resume writing services and business
             consulting
           </p>
-          <button className="btn-global">Get Quote </button>
+          <button className="btn-global">Call Now: +91-7676975440 </button>
         </div>
       </div>
       <div className="welcome-main">

@@ -7,7 +7,7 @@ function Callnow() {
         <div className='call-now'>
             <h1>We make difference</h1>
             <p>Prolabs HR Believe that when the right people meet Creativity prospers, opportunities turn up, and businesses expand.</p>
-            <button className='btn-global'>Call Now: +91-9873554734</button>
+            <button className='btn-global'>Call Now: +91-7676975440</button>
         </div>
          
     </div>
