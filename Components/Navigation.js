@@ -98,7 +98,10 @@ function Navigation() {
             <a href="#">
               <FaTwitterSquare />
             </a>
-            <a href="https://www.linkedin.com/company/prolabs-hr-solutions/" taregt='_blank'>
+            <a
+              href="https://www.linkedin.com/company/prolabs-hr-solutions/"
+              target="_blank"
+            >
               <FaLinkedin />
             </a>
             <a href="#">
