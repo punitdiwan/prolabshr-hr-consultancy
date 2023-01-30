@@ -94,7 +94,10 @@ function Contactus() {
             <a href="#">
               <FaTwitterSquare />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/company/prolabs-hr-solutions/"
+              target="_blank"
+            >
               <FaLinkedin />
             </a>
             <a href="#">

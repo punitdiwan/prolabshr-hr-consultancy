@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useLayoutEffect }  from "react";
+import React, { useRef, useEffect, useLayoutEffect } from "react";
 import {
   FaCheck,
   FaGlobeAmericas,
@@ -27,16 +27,15 @@ function Recruitment() {
     window.addEventListener("scroll", fixedHeader);
   }, []);
 
-
-
-
-
   return (
     <>
       <Header />
       {/* <Navigation/> */}
-      <div className="nav-div-1 new-nav-1 mainHeader"  id="mainHeader"
-        ref={stickyHeader}>
+      <div
+        className="nav-div-1 new-nav-1 mainHeader"
+        id="mainHeader"
+        ref={stickyHeader}
+      >
         <img src="/images/Pro_Logo-1.png" alt="logo" />
         <div className="nav-items">
           <ul className=" list-items">
@@ -69,7 +68,9 @@ function Recruitment() {
             </li>
           </ul>
         </div>
-        <Link href='/contactus' className="btn-global">Get in Touch</Link>
+        <Link href="/contactus" className="btn-global">
+          Get in Touch
+        </Link>
       </div>
       <div className="about-head">
         <h1>Recruitment</h1>
@@ -136,23 +137,22 @@ function Recruitment() {
           <p>
             If you want to get more information about Prolabs HR, banking job
             agencies, and financial recruitment agencies, the best way to reach
-            us is by filling out the following contact form.{" "}
+            us is by filling out the following contact form.
           </p>
-          <div className="icons">
+          <div className="icons icons-1">
             <a href="#">
-              {" "}
               <FaFacebookSquare />
             </a>
             <a href="#">
-              {" "}
               <FaTwitterSquare />
             </a>
-            <a href="#">
-              {" "}
+            <a
+              href="https://www.linkedin.com/company/prolabs-hr-solutions/"
+              target="_blank"
+            >
               <FaLinkedin />
             </a>
             <a href="#">
-              {" "}
               <FaInstagram />
             </a>
           </div>
