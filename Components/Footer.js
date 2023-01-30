@@ -86,7 +86,7 @@ function Footer() {
         <p>
           Copyrights © 2022 Prolabs HR. all rights reserved. Developed by
           <span className="copyright-link">
-            <a href="#">
+            {/* <a href="#"> */}
               {/* <i> */}
 
               <a href="http://maitretech.com/" target="_blank">
@@ -94,7 +94,7 @@ function Footer() {
                 Maitretech Solutions
               </a>
               {/* </i> */}
-            </a>
+            {/* </a> */}
           </span>
         </p>
       </div>
