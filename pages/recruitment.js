@@ -53,12 +53,12 @@ function Recruitment() {
                 <li>
                   <Link href="/recruitment"> Recruitment</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
                   <Link href="/recruitment"> Recruitment</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             {/* <li>
@@ -69,7 +69,7 @@ function Recruitment() {
             </li>
           </ul>
         </div>
-        <button className="btn-global">Get in Touch</button>
+        <Link href='/contactus' className="btn-global">Get in Touch</Link>
       </div>
       <div className="about-head">
         <h1>Recruitment</h1>

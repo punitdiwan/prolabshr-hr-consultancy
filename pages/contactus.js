@@ -54,12 +54,12 @@ function Contactus() {
                 <li>
                   <Link href="/recruitment"> Recruitment</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
                   <Link href="/recruitment"> Recruitment</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             {/* <li>
@@ -70,13 +70,39 @@ function Contactus() {
             </li>
           </ul>
         </div>
-        <button className="btn-global">Get in Touch</button>
+        <Link href="/contactus" className="btn-global">
+          Get in Touch
+        </Link>
       </div>
       <div className="about-head">
         <h1>Contact Us</h1>
       </div>
       <br />
       <br />
+      <div className="recruitment-main">
+        <div className="recruitment-1">
+          <h1>Have you any questions? Feel free to contact us</h1>
+          <p>
+            If you want to get more information about Prolabs HR, banking job
+            agencies, and financial recruitment agencies, the best way to reach
+            us is by filling out the following contact form.
+          </p>
+          <div className="icons icons-1">
+            <a href="#">
+              <FaFacebookSquare />
+            </a>
+            <a href="#">
+              <FaTwitterSquare />
+            </a>
+            <a href="#">
+              <FaLinkedin />
+            </a>
+            <a href="#">
+              <FaInstagram />
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="row-icon">
         <div className="row-icon-1">
           <span>
@@ -107,35 +133,8 @@ function Contactus() {
           <h4>+91 7676975440</h4>
         </div>
       </div>
-      <div className="recruitment-main">
-        <div className="recruitment-1">
-          <h1>Have you any questions? Feel free to contact us</h1>
-          <p>
-            If you want to get more information about Prolabs HR, banking job
-            agencies, and financial recruitment agencies, the best way to reach
-            us is by filling out the following contact form.{" "}
-          </p>
-          <div className="icons icons-1">
-            <a href="#">
-              {" "}
-              <FaFacebookSquare />
-            </a>
-            <a href="#">
-              {" "}
-              <FaTwitterSquare />
-            </a>
-            <a href="#">
-              {" "}
-              <FaLinkedin />
-            </a>
-            <a href="#">
-              {" "}
-              <FaInstagram />
-            </a>
-          </div>
-        </div>
-
-        <div className="container">
+      {/* <div className="recruitment-main"> */}
+      {/* <div className="container">
           <form action="/action_page.php" autoComplete="off">
             <div className="row">
               <div className="col-75">
@@ -169,12 +168,12 @@ function Contactus() {
             </div>
             <br />
             <button className="btn-global">Submit</button>
-            {/* <div className="row">
+            <div className="row">
     <input type="submit" value="Submit"/>
-  </div> */}
+  </div>
           </form>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       <div className="map">
         <iframe

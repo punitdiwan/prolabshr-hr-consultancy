@@ -57,12 +57,12 @@ function Navigation() {
                   <li>
                     <Link href="/recruitment"> Recruitment</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/recruitment"> Recruitment</Link>
                   </li>
                   <li>
                     <Link href="/recruitment"> Recruitment</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               {/* <li>
@@ -73,7 +73,9 @@ function Navigation() {
               </li>
             </ul>
           </div>
-          <button className="btn-global">Get in Touch</button>
+          <Link href="/contactus" className="btn-global">
+            Get in Touch
+          </Link>
         </div>
         <div className="nav-div-2">
           <h1>

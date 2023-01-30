@@ -595,6 +595,7 @@ li{
 }
 .dropdown1 {
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   top: 100%;
   background: grey;
   color: white;
@@ -665,6 +666,7 @@ input[type=submit]:hover {
 .recruitment-main{
   align-items: center;
   display: flex;
+  /* justify-content: center; */
   gap: 5rem;
   padding: 2rem;
   box-shadow: 5px 5px 5px -5px ;
@@ -818,6 +820,9 @@ iframe{
     margin-top: 5rem;
     width: 100%;
    }
+   .recruitment-1{
+    width:100%;
+   }
 }
 @media only screen and (min-width:600px) and (max-width:767px){
   .responsive-nav {
@@ -968,6 +973,9 @@ iframe{
    .about-head{
     margin-top: 5rem;
     width: 100%;
+   }
+   .recruitment-1{
+    width:100%;
    }
 } 
 @media only screen and (max-width: 600px){

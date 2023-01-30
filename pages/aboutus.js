@@ -20,7 +20,7 @@ import {
   FaCaretDown,
 } from "react-icons/fa";
 import Link from "next/link";
-import Iconcolumn from '../Components/Iconcolumn';
+import Iconcolumn from "../Components/Iconcolumn";
 
 function Aboutus() {
   const stickyHeader = useRef();
@@ -62,12 +62,12 @@ function Aboutus() {
                 <li>
                   <Link href="/recruitment"> Recruitment</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/recruitment"> Recruitment</Link>
                 </li>
                 <li>
                   <Link href="/recruitment"> Recruitment</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             {/* <li>
@@ -78,7 +78,9 @@ function Aboutus() {
             </li>
           </ul>
         </div>
-        <button className="btn-global">Get in Touch</button>
+        <Link href="/contactus" className="btn-global">
+          Get in Touch
+        </Link>
       </div>
       <div className="about-head">
         <h1>About Us</h1>
